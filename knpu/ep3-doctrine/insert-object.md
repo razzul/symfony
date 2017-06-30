@@ -98,7 +98,7 @@ I still can't believe it's working - things never work on the first try! To
 triple-check it, head to the terminal. To run a raw SQL query, use:
 
 ```bash
-./bin/console doctrine:query:sql 'SELECT * FROM genus'
+./bin/console doctrine:query:sql "SELECT * FROM genus"
 ```
 
 There they are. So inserting objects with Doctrine... pretty darn easy.
